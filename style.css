@@ -8,3 +8,4 @@ h1{font-size:34px;letter-spacing:-.02em;line-height:1.15;margin:36px 0 6px}h2{fo
 .date{color:var(--muted);font-size:15px;margin:0 0 24px}a{color:var(--accent)}
 li{margin:8px 0}hr{border:0;border-top:1px solid var(--line);margin:56px 0 0}
 .lang{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:48px}
+.brand{display:inline-flex;align-items:center;gap:10px}.brand img{border-radius:22%;display:block}
