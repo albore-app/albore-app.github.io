@@ -9,3 +9,10 @@ h1{font-size:34px;letter-spacing:-.02em;line-height:1.15;margin:36px 0 6px}h2{fo
 li{margin:8px 0}hr{border:0;border-top:1px solid var(--line);margin:56px 0 0}
 .lang{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:48px}
 .brand{display:inline-flex;align-items:center;gap:10px}.brand img{border-radius:22%;display:block}
+
+.get{margin:26px 0 30px}.get a{display:inline-block}.get img{display:block;height:54px;width:auto}
+.getcard{display:flex;align-items:center;gap:14px;margin:28px 0 0;padding:14px 16px;border:1px solid var(--line);border-radius:18px;color:var(--fg);text-decoration:none}
+.getcard .icon{border-radius:22%;flex:none;display:block}
+.getcard .txt{flex:1;display:flex;flex-direction:column;line-height:1.3;min-width:0}.getcard .txt span{color:var(--muted);font-size:15px}
+.getcard picture{flex:none}.getcard picture img{display:block;height:46px;width:auto}
+@media (max-width:480px){.getcard{flex-wrap:wrap}.getcard picture{flex-basis:100%}}
